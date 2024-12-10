@@ -103,11 +103,6 @@ This initiative holds immense value for job seekers and platforms hosting job op
     ```
     - The `environment.yml` file includes a `name` field, you can update it to customize the environment name.
 
-  - Install required dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
   - Configure AWS DynamoDB:
     - Set up your AWS credential file:
       - **Linux/Mac**: `~/.aws/credentials`
@@ -119,14 +114,6 @@ This initiative holds immense value for job seekers and platforms hosting job op
     python flask_server.py
     ```
     - The server will be available at `http://127.0.0.1:5000` by default.
-
-#### Frontend Deployment
-- **Express Server**:
-  - Hosted public files (e.g., `index.html`) and GET APIs using JSON.  
-  - Optimized for handling high memory usage with the following command:
-    ```bash
-    node --max-old-space-size=4096 server.js
-    ```
 
 #### Data Preparation
 - Ensure the following files are available in the `Machine_Learning/Models` directory:
