@@ -109,6 +109,10 @@ This initiative holds immense value for job seekers and platforms hosting job op
       - **Windows**: `%USERPROFILE%\.aws\credentials`
     - Update the DynamoDB table name in `flask_server.py` if necessary (default: `JobPostings`).
 
+  - X_preprocessed.npy (Features):
+    - Download this features from https://drive.google.com/file/d/1VUspsKbjtsIcY4VmebGdz-1cuK_EEvCv/view?usp=sharing and place the file inside ./Machine_Learning/Models Folder.
+
+
   - Run the Flask server:
     ```bash
     python flask_server.py
