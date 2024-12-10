@@ -1,6 +1,6 @@
 # Detecting Fraudulent Job Postings
 
-## Project Background
+## Project Overview
 Fraudulent job postings exploit job seekers by presenting deceptive opportunities, often with malicious intent. With the rise of online job fraud, fake job postings have become a significant issue, leading to financial losses and damaging the reputation of companies. Manual methods for detecting fake job posts are insufficient and inefficient. Automated, scalable solutions are necessary to effectively prevent fraud in the job market. This project aims to develop a machine learning model capable of analyzing job post data to accurately detect fake postings, enhancing the reliability of online recruitment. By leveraging machine learning and extensive exploratory data analysis (EDA), the project aims to identify patterns and anomalies indicative of fraudulent postings. A robust detection system will protect millions of job seekers from scams, promote trust in job platforms, and safeguard companies from reputation risks.
 
 ## Project Usefulness
